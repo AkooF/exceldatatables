@@ -1,16 +1,21 @@
 {
     "name": "svrnm/exceldatatables",
-    "description": "Replace a worksheet within an Excel workbook (.xlsx) without changing any other properties of the file",
+    "description": "Replace a worksheet within an Excel workbook (.xlsx) without changing any other properties of the file. Fork with type of input data",
 	"keywords": ["excel","php","datatables","worksheet","workbook","xls","spreadsheet"],
     "license": "Apache-2.0",
     "authors": [
         {
             "name": "Severin Neumann",
             "email": "severin.neumann@altmuehlnet.de"
+        },
+        {
+          "name": "AkooF",
+          "email": "papay1000@gmail.com"
         }
     ],
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=8.0",
+        "phpoffice/phpspreadsheet": "dev-master"
     },
 	"require-dev": {
 		"phpspec/phpspec": "~2.0",
