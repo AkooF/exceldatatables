@@ -41,22 +41,22 @@ class ExcelWorksheet
     /**
      * The XML base document
      *
-     * @var DOMDocument
+     * @var DOMDocument|null
      */
-    protected DOMDocument $document;
+    protected ?DOMDocument $document = null;
 
     /**
      * The worksheet element. This is the root element of the XML document
      *
-     * @var DOMElement
+     * @var DOMElement|null
      */
-    protected DOMElement $worksheet;
+    protected ?DOMElement $worksheet = null;
     /**
      * The sheetData element. This element contains all rows of the spreadsheet
      *
-     * @var DOMElement
+     * @var DOMElement|null
      */
-    protected DOMElement $sheetData;
+    protected ?DOMElement $sheetData = null;
 
     /**
      * The formatId used for date and time values. The correct id is specified
