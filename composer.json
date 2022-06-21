@@ -15,7 +15,7 @@
     ],
     "require": {
         "php": ">=8.0",
-        "phpoffice/phpspreadsheet": "dev-master"
+        "phpoffice/phpspreadsheet": "1.23.0"
     },
 	"require-dev": {
 		"phpspec/phpspec": "~2.0",
